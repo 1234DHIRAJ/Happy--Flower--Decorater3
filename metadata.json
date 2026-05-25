@@ -1,0 +1,6 @@
+{
+  "name": "Happy Flower Decoration",
+  "description": "Premium wedding, event, haldi, mehendi, and stage flower decoration services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
