@@ -51,7 +51,7 @@ export default function PaymentQR() {
             {/* QR Image */}
             <div className="relative aspect-square bg-white rounded-xl p-4 border border-amber-100 flex items-center justify-center overflow-hidden">
               <img
-                src=https://github.com/1234DHIRAJ/Happy--Flower--Decorater3/blob/main/public/images/qr.jpeg
+                src="images/qr.jpeg"
                 alt="Payment QR Code Scanner"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover rounded-lg group-hover:scale-102 transition-transform duration-500"
@@ -62,7 +62,7 @@ export default function PaymentQR() {
 
             {/* Merchant Info box */}
             <div className="mt-4 text-center">
-              <span className="text-xs font-mono font-bold text-gray-700 block">MERCHANT: HAPPY FLOWER</span>
+              <span className="text-xs font-mono font-bold text-gray-700 block">MERCHANT: HAPPY FLOWER Decoration</span>
               <span className="text-[10px] text-gray-400 block mt-0.5">UPI ID: 9939457103@paytm</span>
             </div>
 
