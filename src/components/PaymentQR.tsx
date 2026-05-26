@@ -63,7 +63,7 @@ export default function PaymentQR() {
             {/* Merchant Info box */}
             <div className="mt-4 text-center">
               <span className="text-xs font-mono font-bold text-gray-700 block">MERCHANT: HAPPY FLOWER</span>
-              <span className="text-[10px] text-gray-400 block mt-0.5">UPI ID: 6206456215@paytm</span>
+              <span className="text-[10px] text-gray-400 block mt-0.5">UPI ID: 9939457103@paytm</span>
             </div>
 
             {/* Sparkles icon */}
