@@ -19,32 +19,32 @@ export default function VideoSection() {
   const videos: VideoItem[] = [
     {
       id: "vid-1",
-      localPath: "videos/first-video.mp4",
+      localPath: "videos/third video.mp4",
       fallbackUrl: "https://assets.mixkit.co/videos/preview/mixkit-indian-wedding-ceremony-during-daytime-41584-large.mp4",
       thumbnail: "https://images.unsplash.com/photo-1510076891965-ee90e82f42a7?auto=format&fit=crop&q=80&w=600",
       titleEn: "Breathtaking Varmala Live Decor",
       titleHi: "वरमाला और स्टेज फूलों की लाइव सजावट",
-      duration: "0:45",
+      duration: "0:13",
       tags: ["Varmala", "Live Setup"]
     },
     {
       id: "vid-2",
-      localPath: "videos/second-video.mp4",
+      localPath: "videos/second video.mp4",
       fallbackUrl: "https://assets.mixkit.co/videos/preview/mixkit-hands-of-an-indian-bride-with-henna-mehendi-41588-large.mp4",
       thumbnail: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600",
       titleEn: "Boho Shahi Mehendi Ceremony Elements",
       titleHi: "मेहंदी रस्म की शाही और रंगीन सजावट",
-      duration: "1:05",
+      duration: "0:12",
       tags: ["Mehendi", "Traditional"]
     },
     {
       id: "vid-3",
-      localPath: "videos/third-video.mp4",
+      localPath: "videos/six video.mp4",
       fallbackUrl: "https://assets.mixkit.co/videos/preview/mixkit-flowers-decorating-a-wedding-car-41579-large.mp4",
       thumbnail: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&q=80&w=600",
       titleEn: "Doli & Floral Car Decor",
       titleHi: "डोली एवं शादी कार फ्लावर डेकोरेशन",
-      duration: "0:30",
+      duration: "0:24",
       tags: ["Car Decor", "Doli Setup"]
     }
   ];
