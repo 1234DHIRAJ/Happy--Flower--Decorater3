@@ -64,7 +64,7 @@ export default function WeddingGallery() {
   // Auto sliding carousel items
   const spotlightSlides = [
     {
-      url: "/v2.jpeg", // <-- ऊपर वाले बड़े स्लाइडर (Spotlight) में भी आपकी फोटो लगा दी है
+      url: "https://pixabay.com/photos/bird-blue-clouds-weather-pen-8788491/", // <-- ऊपर वाले बड़े स्लाइडर (Spotlight) में भी आपकी फोटो लगा दी है
       titleEn: "Premium Rose Custom Backdrop",
       titleHi: "प्रीमियम गुलाब स्टेज बैकड्रॉप",
       desc: "Royal seating framed by thousands of carefully curated natural roses."
