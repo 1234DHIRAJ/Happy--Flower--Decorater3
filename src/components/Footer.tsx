@@ -134,8 +134,8 @@ export default function Footer() {
             <div className="space-y-2 text-xs text-gray-300">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-emerald-400 shrink-0" />
-                <a href="tel:6206456215" className="hover:text-emerald-400 transition-colors">
-                  +91 6206456215
+                <a href="tel:9939457103" className="hover:text-emerald-400 transition-colors">
+                  +91 9939457103
                 </a>
               </div>
               <div className="flex items-center space-x-2">
@@ -152,7 +152,7 @@ export default function Footer() {
 
             <div className="pt-2">
               <a
-                href="https://api.whatsapp.com/send?phone=916206456215"
+                href="https://api.whatsapp.com/send?phone=919939457103"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] uppercase tracking-wider rounded-md transition-colors"
