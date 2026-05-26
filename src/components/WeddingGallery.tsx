@@ -19,7 +19,7 @@ export default function WeddingGallery() {
   const galleryItems: GalleryItem[] = [
     {
       id: "varmala-1",
-      url: "C:\Users\hp\Downloads\happy-flower-decoration\public\images\varmala.jpeg",
+      url:"images/varmala.jpeg",
       titleEn: "Royal Varmala Stage Decor",
       titleHi: "शाही वरमाला स्टेज सजावट",
       category: "stage"
