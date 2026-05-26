@@ -19,7 +19,7 @@ export default function VideoSection() {
   const videos: VideoItem[] = [
     {
       id: "vid-1",
-      localPath: "videos/first-video.mp4",
+      localPath: "C:\Users\hp\Downloads\happy-flower-decoration\public\Videos\fourth video.mp4",
       fallbackUrl: "https://assets.mixkit.co/videos/preview/mixkit-indian-wedding-ceremony-during-daytime-41584-large.mp4",
       thumbnail: "https://images.unsplash.com/photo-1510076891965-ee90e82f42a7?auto=format&fit=crop&q=80&w=600",
       titleEn: "Breathtaking Varmala Live Decor",
