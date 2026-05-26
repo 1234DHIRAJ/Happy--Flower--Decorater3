@@ -15,18 +15,18 @@ export default function WeddingGallery() {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const [slideIndex, setSlideIndex] = useState(0);
 
-  // Gallery Images List targeting exact relative image paths requested
+  // Gallery Images List - ध्यान दें: public folder की इमेज के लिए सीधे "/" से शुरू करें
   const galleryItems: GalleryItem[] = [
     {
       id: "varmala-1",
-      url:"images/varmala.jpeg",
+      url: "/v2.jpeg", // <-- यहाँ आपकी फोटो का नाम बदल दिया है (अगर .jpg है तो /v2.jpg करें)
       titleEn: "Royal Varmala Stage Decor",
       titleHi: "शाही वरमाला स्टेज सजावट",
       category: "stage"
     },
     {
       id: "varmala-2",
-      url: "images/varmala2.jpeg",
+      url: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800",
       titleEn: "Romantic Walkway Pathway Arches",
       titleHi: "रोमांटिक प्रवेश मार्ग फूलों के द्वार",
       category: "pathway"
@@ -64,13 +64,13 @@ export default function WeddingGallery() {
   // Auto sliding carousel items
   const spotlightSlides = [
     {
-      url: "images/varmala1.jpeg",
+      url: "/v2.jpeg", // <-- ऊपर वाले बड़े स्लाइडर (Spotlight) में भी आपकी फोटो लगा दी है
       titleEn: "Premium Rose Custom Backdrop",
       titleHi: "प्रीमियम गुलाब स्टेज बैकड्रॉप",
       desc: "Royal seating framed by thousands of carefully curated natural roses."
     },
     {
-      url: "images/varmala2.jpeg",
+      url: "https://images.unsplash.com/photo-1519225495846-b9dc68ecc166?auto=format&fit=crop&q=80&w=1200",
       titleEn: "Magical Pathway Arches",
       titleHi: "जादुई फूलों का प्रवेश मार्ग",
       desc: "Walk beneath cascading marigold and rose tunnels under twinkling lights."
