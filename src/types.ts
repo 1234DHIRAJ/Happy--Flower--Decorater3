@@ -5,7 +5,7 @@ export interface Service {
   description: string;
   basePrice: number;
   image: string;
-  category: 'wedding' | 'haldi' | 'mehendi' | 'stage' | 'other';
+  category: 'wedding' | 'haldi' | 'mehendi' | 'stage' | 'Varmala' | 'Birthday Party' | 'Sarswati Puja' |'other';
 }
 
 export interface GalleryImage {
