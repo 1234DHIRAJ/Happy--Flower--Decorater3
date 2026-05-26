@@ -51,7 +51,7 @@ export default function PaymentQR() {
             {/* QR Image */}
             <div className="relative aspect-square bg-white rounded-xl p-4 border border-amber-100 flex items-center justify-center overflow-hidden">
               <img
-                src="public/images/qr.jpeg"
+                src="/images/qr.jpeg"
                 alt="Payment QR Code Scanner"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover rounded-lg group-hover:scale-102 transition-transform duration-500"
