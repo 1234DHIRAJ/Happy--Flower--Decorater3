@@ -26,7 +26,7 @@ export default function WeddingGallery() {
     },
     {
       id: "varmala-2",
-      url: "images/varmala2.jpeg",
+      url: "images/v2.jpeg",
       titleEn: "Romantic Walkway Pathway Arches",
       titleHi: "रोमांटिक प्रवेश मार्ग फूलों के द्वार",
       category: "pathway"
