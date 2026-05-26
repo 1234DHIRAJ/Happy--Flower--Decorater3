@@ -70,7 +70,7 @@ export default function WeddingGallery() {
       desc: "Royal seating framed by thousands of carefully curated natural roses."
     },
     {
-      url: "images/varmala2.jpeg",
+      url: "images/v2.jpeg",
       titleEn: "Magical Pathway Arches",
       titleHi: "जादुई फूलों का प्रवेश मार्ग",
       desc: "Walk beneath cascading marigold and rose tunnels under twinkling lights."
