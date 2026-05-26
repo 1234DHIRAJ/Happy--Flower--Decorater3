@@ -62,7 +62,7 @@ export default function HaldiMehendi() {
               {/* Haldi Image Frame */}
               <div className="relative aspect-16/10 sm:aspect-16/9 overflow-hidden group">
                 <img
-                  src="images/haldi.jpeg"
+                  src="images/photo-1.jpeg"
                   alt="Vibrant Haldi Decoration"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -135,7 +135,7 @@ export default function HaldiMehendi() {
               {/* Mehendi Image Frame */}
               <div className="relative aspect-16/10 sm:aspect-16/9 overflow-hidden group">
                 <img
-                  src="images/mehendi.jpeg"
+                  src="images/photo-3.jpeg"
                   alt="Vibrant Mehendi Decoration"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
