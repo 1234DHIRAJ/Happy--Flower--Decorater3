@@ -22,9 +22,9 @@ export default function BookingForm() {
 
   const services: ServiceOption[] = [
     { id: "wedding", nameEn: "Complete Wedding Setup", nameHi: "संपूर्ण विवाह सजावट", basePrice: 45000 },
-    { id: "varmala", nameEn: "Royal Varmala Stage", nameHi: "शाही वरमाला मंच", basePrice: 20000 },
-    { id: "haldi", nameEn: "Vibrant Haldi Setup", nameHi: "हल्दी स्टेज सजावट", basePrice: 15000 },
-    { id: "mehendi", nameEn: "Boho Mehendi Theme", nameHi: "मेहंदी थीम डेकॉर", basePrice: 18000 },
+    { id: "varmala", nameEn: "Royal Varmala Stage", nameHi: "शाही वरमाला मंच", basePrice: 25000 },
+    { id: "haldi", nameEn: "Vibrant Haldi Setup", nameHi: "हल्दी स्टेज सजावट", basePrice: 10000 },
+    { id: "mehendi", nameEn: "Boho Mehendi Theme", nameHi: "मेहंदी थीम डेकॉर", basePrice: 10000 },
     { id: "mandap", nameEn: "Vedic Mandap Backdrop", nameHi: "वैदिक मंडप सजावट", basePrice: 25000 },
     { id: "birthday", nameEn: "Grand Birthday / Canopy", nameHi: "जन्मदिन बैलून-फ्लावर डेकॉर", basePrice: 8000 },
     { id: "grihapravesh", nameEn: "Griha Pravesh Entrances", nameHi: "गृह प्रवेश द्वार तोरण", basePrice: 10000 }
@@ -94,7 +94,7 @@ ${selectedLabels}
 ------------------------------------------------
 _Sent from Happy Flower Decoration Website_`;
 
-    return `https://api.whatsapp.com/send?phone=916206456215&text=${encodeURIComponent(msg)}`;
+    return `https://api.whatsapp.com/send?phone=919939457103&text=${encodeURIComponent(msg)}`;
   };
 
   const resetForm = () => {
@@ -169,7 +169,7 @@ _Sent from Happy Flower Decoration Website_`;
                           required
                           value={phone}
                           onChange={(e) => setPhone(e.target.value)}
-                          placeholder="मोबाइल नंबर (e.g. 6206456215)"
+                          placeholder="मोबाइल नंबर (e.g. 9939457103)"
                           className="w-full px-4.5 py-3 rounded-xl border border-pink-100 focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-100 bg-white shadow-xs transition-colors"
                         />
                       </div>
