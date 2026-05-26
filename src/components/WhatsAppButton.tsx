@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 export default function WhatsAppButton() {
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=916206456215&text=%F0%9F%8C%BA%20Hello%20Happy%20Flower%20Decoration%21%20I%20visited%20your%20website%20and%20want%20to%20enquire%20about%20your%20wedding%20and%20event%20decoration%20services.%20Can%20you%20please%20help%20me%3F";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=919939457103&text=%F0%9F%8C%BA%20Hello%20Happy%20Flower%20Decoration%21%20I%20visited%20your%20website%20and%20want%20to%20enquire%20about%20your%20wedding%20and%20event%20decoration%20services.%20Can%20you%20please%20help%20me%3F";
 
   return (
     <div className="fixed bottom-6 right-6 z-40">
@@ -27,7 +27,7 @@ export default function WhatsAppButton() {
 
         {/* Hover label tooltip info */}
         <span className="absolute right-16 scale-0 bg-gray-900 text-white text-[10px] uppercase font-bold tracking-widest px-3 py-1.5 rounded-lg opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-300 origin-right whitespace-nowrap shadow-md">
-          Chat With Us (6206456215)
+          Chat With Us (9939457103)
         </span>
       </motion.a>
     </div>
